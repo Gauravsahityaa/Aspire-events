@@ -4126,7 +4126,7 @@ font-family: 'Didact Gothic', sans-serif;
 .footer-top {
   position: relative;
   display: block;
-  background-color: #000;
+  background-color: white;
   padding: 90px 0 60px 0;
   z-index: 1;
 }
@@ -4135,7 +4135,7 @@ font-family: 'Didact Gothic', sans-serif;
 }
 .footer-title {
   font-size: 24px;
-  color: #fff;
+  color: #d6b36e;
   margin-bottom: 20px;
 }
 .footer-title span {
@@ -4143,12 +4143,12 @@ font-family: 'Didact Gothic', sans-serif;
 }
 .footer-about-text {
   font-size: 16px;
-  color: #fff;
+  color: #000;
   margin: 0;
 }
 .footer-about-text em {
     font-family: 'Dantina', sans-serif;
-  color: #fff;
+  color: #000;
   margin: 0;
 }
 .footer-about-social-list {
@@ -4171,7 +4171,7 @@ font-family: 'Didact Gothic', sans-serif;
   -ms-flex-pack: center;
       justify-content: center;
   text-align: center;
-  color: #fff;
+  color: #000;
   font-size: 16px;
   background-color: transparent;
   -webkit-transition: all 500ms ease;
@@ -4182,7 +4182,7 @@ font-family: 'Didact Gothic', sans-serif;
 }
 .footer-about-social-list a:hover {
   background-color: transparent;
-  color: #fff;
+  color: #d6b36e;
 }
 .footer-explore-list li + li {
   margin-top: 3px;
@@ -4191,7 +4191,7 @@ font-family: 'Didact Gothic', sans-serif;
   position: relative;
   display: block;
   font-size: 16px;
-  color: #fff;
+  color: #000;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -4207,7 +4207,7 @@ font-family: 'Didact Gothic', sans-serif;
   width: 6px;
   height: 6px;
   content: "";
-  background-color: #d6b36e;
+  background-color: #000;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   opacity: 0;
@@ -4228,7 +4228,7 @@ font-family: 'Didact Gothic', sans-serif;
 .footer-contact-text {
   font-size: 16px;
   margin: 0;
-  color: #fff;
+  color: #000;
   padding-bottom: 20px;
 }
 .footer-contact-info p {
@@ -4241,7 +4241,7 @@ font-family: 'Didact Gothic', sans-serif;
 .footer-contact-phone {
     font-family: 'Didact Gothic', sans-serif;
     font-size: 20px;
-    color: #fff;
+    color: #000;
     font-weight: 400;
     display: block;
     -webkit-transition: all 500ms ease;
@@ -4253,7 +4253,7 @@ font-family: 'Didact Gothic', sans-serif;
 .footer-contact-mail {
   font-size: 16px;
   line-height: 3em;
-  color: #fff;
+  color: #000;
   position: relative;
   display: inline-block;
   -webkit-transition: all 500ms ease;
@@ -4268,7 +4268,7 @@ font-family: 'Didact Gothic', sans-serif;
   left: 0;
   right: 0;
   height: 1px;
-  background-color: #d6b36e;
+  background-color: #000;
   content: "";
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -4290,12 +4290,12 @@ font-family: 'Didact Gothic', sans-serif;
     top: 17px;
     font-size: 16px;
     opacity: 0.6;
-    color: #fff;
+    color: #d6b36e;
 }
 .footer-language select {
 height: 50px;
     background: transparent;
-    color: #fff;
+    color: #d6b36e;
     border: 1px solid rgba(116, 129, 115, 0.7);
     border-radius: 0px;
 }
@@ -4437,10 +4437,10 @@ select {
   z-index: 1;
 }
 [data-overlay-dark]:before {
-  background: #000;
+  background: #d6b36e;
 }
 [data-overlay-darkgray]:before {
-  background: #000;
+  background: #d6b36e;
 }
 [data-overlay-light]:before {
   background: #fff;
